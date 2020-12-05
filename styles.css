@@ -1,0 +1,1955 @@
+body {
+	margin: 0;
+}
+.header {
+	width: 100%;
+	height: 70px;
+	border-color: black;
+	border-width: 2px;
+	border-bottom-style: solid;
+}
+h1 {
+	margin-left: 75px;
+	font-family: 'Arvo', serif;
+	font-size: 60pt;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 25pt;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+h3 {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+h4 {
+	font-family: arial;
+	font-size: 12pt;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	color: #bebebe;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Arvo', serif;
+  font-size: 15pt;
+  margin-left: 75px;
+  width: 60%;
+  margin-top: 100px;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.special td {
+	border: none;
+}
+.specialtwo td {
+  border-top: 3px solid #ddd;
+  border-bottom: none;
+}
+.logo {
+	height: 50px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 50px;
+	float: left;
+}
+.logodiv {
+	width: 25%;
+	min-width: 300px;
+	height: 72px;
+	float: left;
+}
+.gopsearch {
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	height: 30px;
+	margin-top: -52px;
+	width: 48%;
+	float: right;
+	margin-right: 20%;
+}
+.lupe {
+	height: 25px;
+	width: auto;
+	margin-top: 3px;
+	margin-left: 5px;
+	float: left;
+}
+.bar {
+	margin-left: 5px;
+	margin-top: 3px;
+	height: 19px;
+	width: 82%;
+	padding-top: 4px;
+	font-size: 20px;
+}
+#inputS {
+  border:0;
+  background-color: transparent;
+}
+.right {
+	width: 20%;
+	height: 72px;
+	float: right;
+}
+.kategorie {
+	height: 300px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: 50px;
+	margin-top: 70px;
+	margin-right: 50px;
+}
+.kate1 {
+	width: 23%;
+	height: 260px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin: 0.7%;
+	float: left;
+	margin-left: 11.5%;
+	margin-top: 20px;
+}
+.kates {
+	width: 23%;
+	height: 260px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin: 0.7%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 20px;
+	
+}
+.ktitle {
+	height: 45px;
+	border-color: black;
+	border-width: 2px;
+	border-top-style: solid;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	padding-top: 5px;
+}
+.ktitle:hover{
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.bilder {
+	height: 80%;
+	overflow: hidden;
+}
+.filter {
+	height: 50px;
+	margin-left: 75px;
+	margin-right: 50px;
+}
+.products {
+	height: 500px;
+	margin-left: 75px;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.showme {
+	height: 293px;
+	width: 293px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-right: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.showme:hover {
+	height: 300px;
+	width: 300px;
+	margin-right: 43px;
+	margin-top: 13px;
+}
+.gettitle {
+	height: 70px;
+	border-color: black;
+	border-width: 2px;
+	border-top-style: solid;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	padding-top: 5px;
+}
+.bilderget {
+	height: 60%;
+}
+.kbild1 {
+	height: 194%;
+}
+.kbild2 {
+	height: 155%;
+}
+.kbild3 {
+	height: 205%;
+	padding-top: -200px;
+}
+.logout {
+	float: right;
+	height: 40px;
+	width: 100px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-bottom: 17px;
+}
+.logout:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.login {
+	height: 40px;
+	width: 100px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-right: 20px;
+}
+.login:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+div.kates:hover div {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+div.kate1:hover div {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.ware {
+	float: right;
+	height: 34px;
+	width: 50px;
+	margin-top: 20px;
+	//margin-right: 50px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+}
+.dark {
+	float: right;
+	height: 34px;
+	width: 50px;
+	margin-top: 20px;
+	margin-right: 7px;
+	margin-left: -10px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+	color: white;
+}
+.ware:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.profil {
+	float: right;
+	height: 34px;
+	width: 50px;
+	margin-top: 20px;
+	margin-right: 50px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+}
+.profil:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.footer {
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	width: 100%;
+	float: left;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+.pictures {
+	height: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+.alcname {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	font-size: 11pt;
+	text-decoration: none;
+	color: black;
+}
+.alcname:hover {
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.alcstock {
+	float: right;
+	padding-right: 10px;
+	text-align:center;
+	font-size: 11pt;
+	font-family: arial;
+	color: gray;
+}
+.alcprice {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: red;
+	float: left;
+	font-size: 15pt;
+	margin-top: 10px;
+}
+.reset {
+	height: 15px;
+	z-index: 100;
+	margin-right: 19px;
+	margin-top: 8px;
+	float: right;
+	position: relative;
+}
+.error {
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+}
+.formular {
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	width: 15%;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+#inputL {
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	height: 25px;
+	text-indent:10px;
+	font-family: 'Arvo', serif;
+	font-size: 16pt;
+	width: 300px;
+}
+.regist {
+	font-size: 10pt;
+	cursor: pointer;
+	color: black;
+}
+.regist:hover {
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.safe {
+	float: right;
+	height: 34px;
+	width: 34px;
+	margin-top: 14px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-size: 25pt;
+	color: white;
+	cursor: pointer;
+}
+div.showme:hover button {
+	margin-top: 15px;
+}
+.safe:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.reg-err {
+	font-family: 'Arvo', serif;
+	font-size: 10pt;
+	color: red;
+	margin-left: 50px;
+}
+.add {
+	margin-bottom: 9px;
+	margin-left: -2px;
+	padding: 0;
+	height: 20px;
+}
+.showoff {
+	height: 350px;
+	width: 350px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: 75px;
+	margin-right: -55px;
+	margin-top: 50px;
+	float: left;
+	margin-bottom: -40px;
+}
+.showofftext {
+	height: 350px;
+	width: 350px;
+	margin-left: 75px;
+	margin-top: 50px;
+	float: left;
+	position: relative;
+}
+.showoffdrink {
+	margin-left: auto;
+	margin-right: auto;
+}
+.span {
+	font-family: arial;
+	font-size: 20pt;
+	color: #bebebe;
+	
+}
+.span2 {
+	font-family: arial;
+	font-size: 12pt;
+	color: black;
+	color: #bebebe;
+}
+.span3 {
+	font-family: arial;
+	font-size: 12pt;
+	color: black;
+	float: right;
+	margin-right: 20px;
+}
+.span4 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 12pt;
+	color: black;
+	margin-bottom: 20px;
+}
+.back {
+	height: 40px;
+	width: 100px;
+	margin-top: 50px;
+	margin-left: 75px;
+	margin-right: 90%;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-bottom: 17px;
+	cursor: pointer;
+}
+.back:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.price {
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	color: red;
+	float: left;
+	font-size: 20pt;
+}
+.bottomdiv {
+	height: 60px;
+	width: 100%;
+	float: left;
+	position: absolute;
+	bottom: -4px;
+}
+.mwst {
+	font-family: arial;
+	font-size: 9pt;
+	color: #bebebe;
+	float: left;
+}
+.wareoff {
+	float: right;
+	height: 34px;
+	width: 100px;
+	border-color: red;
+	border-width: 4px;
+	border-style: solid;
+	background-color: red;
+	margin-top: -25px;
+	cursor: pointer;
+}
+.wareoff:hover {
+	background-color: #a60000;
+	border-color: #a60000;
+	transition: 0.3s;
+}
+.commentdiv {
+	margin-top: 25px;
+	float: left;
+	margin-left: 75px;
+	width: 90%;
+}
+.commentbox {
+	height: 100px;
+	max-width: 750px;
+	min-width: 750px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	float: left;
+	margin-bottom: 10px;
+}
+.commentboxtwo {
+	height: 80px;
+	width: 728px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	float: left;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.commentinput {
+	width: 98.7%;
+	height: 50px;
+	border: 0;
+	border-color: black;
+	border-width: 1px;
+	border-bottom-style: solid;
+	padding-left: 1%;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	line-height: 100px;
+}
+.bewerte {
+	height: 40px;
+	width: 100px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.bewerte:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.name {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+}
+.date {
+	font-family: arial;
+	font-size: 10pt;
+	color: #bebebe;
+	float: right;
+}
+.message {
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	margin-top:20px;
+}
+.logoindex {
+	background: url(bilder/logo.png) no-repeat center center;
+    height: 200px;
+    width: auto;
+	margin-top: 20px;
+}
+.indexbutton {
+	height: 50px;
+	width: 350px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	font-weight: 700;
+	cursor: pointer;
+}
+.indexbutton:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.indexbuttonno {
+	height: 50px;
+	width: 350px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+}
+div.indexdiv {
+    margin-top: 250px;
+    position: relative;
+}
+div.indexdiv button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+div.two {
+    margin-top: 350px;
+    position: relative;
+}
+div.two button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.wbutton {
+	height: 30px;
+	width: 30px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+	color: white;
+	font-family: 'Arvo', serif;
+	margin: 5px;
+	font-weight: 700;
+	float: left;
+}
+.wbutton:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.abutton {
+	height: 27px;
+	width: 30px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: white;
+	color: black;
+	margin: 5px;
+	float: left;
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+.divbuy{
+	margin-top: 50px;
+}
+.buynow {
+	height: 40px;
+	width: 200px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	float: right;
+}
+.buynow:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+div.thx {
+    margin-top: 250px;
+    position: relative;
+}
+div.thx h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+div.thx a {
+	margin-top: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	
+}
+.footertwo {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	margin-left: -20px;
+}
+.popup {
+  position: relative;
+}
+.popup .popuptext {
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  margin-top: 90px;
+  right: 15%;
+  font-family: 'Arvo', serif;
+  font-size: 12pt;
+}
+.delete {
+	color: red;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-left: -37px;
+	cursor: pointer;
+}
+.delete:hover {
+	color: #a60000;
+	transition: 0.3s;
+}
+.edit {
+	color: blue;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-left: -150px;
+	position: absolute;
+	cursor: pointer;
+}
+.edit:hover {
+	color: #002c7d;
+	transition: 0.3s;
+}
+.editdrink {
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	width: 15%;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+#inputW {
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	height: 30px;
+	text-indent:10px;
+	font-family: 'Arvo', serif;
+	font-size: 16pt;
+	width: 400px;
+	margin-top: 5px;
+}
+.safeD {
+	height: 40px;
+	width: 150px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-right: 20px;
+}
+.safeD:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.resetD {
+	height: 40px;
+	width: 150px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-right: 20px;
+	
+}
+.resetD:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.addD{
+	float: left;
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	margin-left: 75px;
+	color: blue;
+}
+.addD:hover {
+	color: #002c7d;
+	transition: 0.3s;
+}
+#hidden_div {
+    display: none;
+}
+.jpg {
+	color: red;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-left: 0px;
+	margin-top: 10px;
+	position: fixed;
+}
+.btn {
+  color: black;
+  background-color: white;
+  font-family: 'Arvo', serif;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+.checked {
+	cursor: pointer;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+.checked:hover {
+	filter: opacity(50%);
+	transition: 0.3s;
+}
+input[type="radio"]:checked + label {
+	filter: opacity(50%);
+}
+.bestell {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+}
+.beste {
+	font-family: arial;
+	font-size: 10pt;
+	color: #bebebe;
+	float: right;
+	margin-right: 50px;
+}
+.bestebutton {
+	font-family: 'Arvo', serif;
+	font-size: 10pt;
+	color: white;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	height: 34px;
+	width: 150px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+}
+.bestebutton:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.zufi {
+	float: left;
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	color: white;
+	margin-top: 20px;
+	margin-right: 50px;
+	height: 60px;
+	width: 297px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+}
+.zufi:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.feedback {
+	height: 213px;
+	width: 293px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-right: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.feedb {
+	width: 96%;
+	border-style: none;
+	height: 158px;
+	resize: none;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.feedbutton {
+	font-family: 'Arvo', serif;
+	font-size: 13pt;
+	width: 100%;
+	height: 40px;
+	color: white;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	cursor: pointer;
+}
+.feedbutton:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.thx {
+	margin-left: 36px;
+	font-family: 'Arvo', serif;
+	font-size: 13pt;
+}
+
+@media (prefers-color-scheme: dark) {
+
+body {
+	margin: 0;
+	background-color: black;
+}
+.header {
+	width: 100%;
+	height: 70px;
+	border-color: white;
+	border-width: 2px;
+	border-bottom-style: solid;
+}
+h1 {
+	margin-left: 75px;
+	font-family: 'Arvo', serif;
+	font-size: 60pt;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 25pt;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+h3 {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+h4 {
+	font-family: arial;
+	font-size: 12pt;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	color: #bebebe;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Arvo', serif;
+  font-size: 15pt;
+  margin-left: 75px;
+  width: 60%;
+  margin-top: 100px;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.special td {
+	border: none;
+}
+.specialtwo td {
+  border-top: 3px solid #ddd;
+  border-bottom: none;
+}
+.logo {
+	height: 50px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 50px;
+	float: left;
+}
+.logodiv {
+	width: 25%;
+	min-width: 300px;
+	height: 72px;
+	float: left;
+}
+.gopsearch {
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	height: 30px;
+	margin-top: -52px;
+	width: 48%;
+	float: right;
+	margin-right: 20%;
+}
+.lupe {
+	height: 25px;
+	width: auto;
+	margin-top: 3px;
+	margin-left: 5px;
+	float: left;
+}
+.bar {
+	margin-left: 5px;
+	margin-top: 3px;
+	height: 19px;
+	width: 82%;
+	padding-top: 4px;
+	font-size: 20px;
+}
+#inputS {
+  border:0;
+  background-color: transparent;
+}
+.right {
+	width: 20%;
+	height: 72px;
+	float: right;
+}
+.kategorie {
+	height: 300px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: 50px;
+	margin-top: 70px;
+	margin-right: 50px;
+}
+.kate1 {
+	width: 23%;
+	height: 260px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin: 0.7%;
+	float: left;
+	margin-left: 11.5%;
+	margin-top: 20px;
+}
+.kates {
+	width: 23%;
+	height: 260px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin: 0.7%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 20px;
+	
+}
+.ktitle {
+	height: 45px;
+	border-color: white;
+	border-width: 2px;
+	border-top-style: solid;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	padding-top: 5px;
+}
+.ktitle:hover{
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.bilder {
+	height: 80%;
+	overflow: hidden;
+}
+.filter {
+	height: 50px;
+	margin-left: 75px;
+	margin-right: 50px;
+}
+.products {
+	height: 500px;
+	margin-left: 75px;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.showme {
+	height: 293px;
+	width: 293px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin-right: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.showme:hover {
+	height: 300px;
+	width: 300px;
+	margin-right: 43px;
+	margin-top: 13px;
+}
+.gettitle {
+	height: 70px;
+	border-color: white;
+	border-width: 2px;
+	border-top-style: solid;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	padding-top: 5px;
+}
+.bilderget {
+	height: 60%;
+}
+.kbild1 {
+	height: 194%;
+}
+.kbild2 {
+	height: 155%;
+}
+.kbild3 {
+	height: 205%;
+	padding-top: -200px;
+}
+.logout {
+	float: right;
+	height: 40px;
+	width: 100px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-bottom: 17px;
+}
+.logout:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.login {
+	height: 40px;
+	width: 100px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-right: 20px;
+}
+.login:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+div.kates:hover div {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+div.kate1:hover div {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+}
+.ware {
+	float: right;
+	height: 34px;
+	width: 50px;
+	margin-top: 20px;
+	//margin-right: 50px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+}
+.dark {
+	float: right;
+	height: 34px;
+	width: 50px;
+	margin-top: 20px;
+	margin-right: 7px;
+	margin-left: -10px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+	color: black;
+}
+.ware:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.profil {
+	float: right;
+	height: 34px;
+	width: 50px;
+	margin-top: 20px;
+	margin-right: 50px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+}
+.profil:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.footer {
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	width: 100%;
+	float: left;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+.pictures {
+	height: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+.alcname {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	font-size: 11pt;
+	text-decoration: none;
+	color: white;
+}
+.alcname:hover {
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.alcstock {
+	float: right;
+	padding-right: 10px;
+	text-align:center;
+	font-size: 11pt;
+	font-family: arial;
+	color: gray;
+}
+.alcprice {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: red;
+	float: left;
+	font-size: 15pt;
+	margin-top: 10px;
+}
+.reset {
+	height: 15px;
+	z-index: 100;
+	margin-right: 19px;
+	margin-top: 8px;
+	float: right;
+	position: relative;
+}
+.error {
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+}
+.formular {
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	width: 15%;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+#inputL {
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	height: 25px;
+	text-indent:10px;
+	font-family: 'Arvo', serif;
+	font-size: 16pt;
+	width: 300px;
+}
+.regist {
+	font-size: 10pt;
+	cursor: pointer;
+	color: white;
+}
+.regist:hover {
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.safe {
+	float: right;
+	height: 34px;
+	width: 34px;
+	margin-top: 14px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-size: 25pt;
+	color: black;
+	cursor: pointer;
+}
+div.showme:hover button {
+	margin-top: 15px;
+}
+.safe:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.reg-err {
+	font-family: 'Arvo', serif;
+	font-size: 10pt;
+	color: red;
+	margin-left: 50px;
+}
+.add {
+	margin-bottom: 9px;
+	margin-left: -2px;
+	padding: 0;
+	height: 20px;
+}
+.showoff {
+	height: 350px;
+	width: 350px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: 75px;
+	margin-right: -55px;
+	margin-top: 50px;
+	float: left;
+	margin-bottom: -40px;
+}
+.showofftext {
+	height: 350px;
+	width: 350px;
+	margin-left: 75px;
+	margin-top: 50px;
+	float: left;
+	position: relative;
+}
+.showoffdrink {
+	margin-left: auto;
+	margin-right: auto;
+}
+.span {
+	font-family: arial;
+	font-size: 20pt;
+	color: #bebebe;
+	
+}
+.span2 {
+	font-family: arial;
+	font-size: 12pt;
+	color: white;
+	color: #bebebe;
+}
+.span3 {
+	font-family: arial;
+	font-size: 12pt;
+	color: white;
+	float: right;
+	margin-right: 20px;
+}
+.span4 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 12pt;
+	color: white;
+	margin-bottom: 20px;
+}
+.back {
+	height: 40px;
+	width: 100px;
+	margin-top: 50px;
+	margin-left: 75px;
+	margin-right: 90%;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-bottom: 17px;
+	cursor: pointer;
+}
+.back:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.price {
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	color: red;
+	float: left;
+	font-size: 20pt;
+}
+.bottomdiv {
+	height: 60px;
+	width: 100%;
+	float: left;
+	position: absolute;
+	bottom: -4px;
+}
+.mwst {
+	font-family: arial;
+	font-size: 9pt;
+	color: #bebebe;
+	float: left;
+}
+.wareoff {
+	float: right;
+	height: 34px;
+	width: 100px;
+	border-color: red;
+	border-width: 4px;
+	border-style: solid;
+	background-color: red;
+	margin-top: -25px;
+	cursor: pointer;
+}
+.wareoff:hover {
+	background-color: #a60000;
+	border-color: #a60000;
+	transition: 0.3s;
+}
+.commentdiv {
+	margin-top: 25px;
+	float: left;
+	margin-left: 75px;
+	width: 90%;
+}
+.commentbox {
+	height: 100px;
+	max-width: 750px;
+	min-width: 750px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	float: left;
+	margin-bottom: 10px;
+}
+.commentboxtwo {
+	height: 80px;
+	width: 728px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	float: left;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.commentinput {
+	width: 98.7%;
+	height: 50px;
+	border: 0;
+	border-color: white;
+	border-width: 1px;
+	border-bottom-style: solid;
+	padding-left: 1%;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	line-height: 100px;
+}
+.bewerte {
+	height: 40px;
+	width: 100px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.bewerte:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.name {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+}
+.date {
+	font-family: arial;
+	font-size: 10pt;
+	color: #bebebe;
+	float: right;
+}
+.message {
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	margin-top:20px;
+}
+.logoindex {
+	background: url(bilder/logo.png) no-repeat center center;
+    height: 200px;
+    width: auto;
+	margin-top: 20px;
+}
+.indexbutton {
+	height: 50px;
+	width: 350px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	font-weight: 700;
+	cursor: pointer;
+}
+.indexbutton:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.indexbuttonno {
+	height: 50px;
+	width: 350px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	font-weight: 700;
+	color: black;
+	cursor: pointer;
+}
+div.indexdiv {
+    margin-top: 250px;
+    position: relative;
+}
+div.indexdiv button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+div.two {
+    margin-top: 350px;
+    position: relative;
+}
+div.two button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.wbutton {
+	height: 30px;
+	width: 30px;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+	color: black;
+	font-family: 'Arvo', serif;
+	margin: 5px;
+	font-weight: 700;
+	float: left;
+}
+.wbutton:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.abutton {
+	height: 27px;
+	width: 30px;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	background-color: black;
+	color: white;
+	margin: 5px;
+	float: left;
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+.divbuy{
+	margin-top: 50px;
+}
+.buynow {
+	height: 40px;
+	width: 200px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	float: right;
+}
+.buynow:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+div.thx {
+    margin-top: 250px;
+    position: relative;
+}
+div.thx h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+div.thx a {
+	margin-top: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	
+}
+.footertwo {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	margin-left: -20px;
+}
+.popup {
+  position: relative;
+}
+.popup .popuptext {
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  margin-top: 90px;
+  right: 15%;
+  font-family: 'Arvo', serif;
+  font-size: 12pt;
+}
+.delete {
+	color: red;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-left: -37px;
+	cursor: pointer;
+}
+.delete:hover {
+	color: #a60000;
+	transition: 0.3s;
+}
+.edit {
+	color: blue;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-left: -150px;
+	position: absolute;
+	cursor: pointer;
+}
+.edit:hover {
+	color: #002c7d;
+	transition: 0.3s;
+}
+.editdrink {
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	width: 15%;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+#inputW {
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	height: 30px;
+	text-indent:10px;
+	font-family: 'Arvo', serif;
+	font-size: 16pt;
+	width: 400px;
+	margin-top: 5px;
+}
+.safeD {
+	height: 40px;
+	width: 150px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-right: 20px;
+}
+.safeD:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.resetD {
+	height: 40px;
+	width: 150px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: black;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-right: 20px;
+	
+}
+.resetD:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+.addD{
+	float: left;
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	margin-left: 75px;
+	color: blue;
+}
+.addD:hover {
+	color: #002c7d;
+	transition: 0.3s;
+}
+#hidden_div {
+    display: none;
+}
+.jpg {
+	color: red;
+	font-family: 'Arvo', serif;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-left: 0px;
+	margin-top: 10px;
+	position: fixed;
+}
+.btn {
+  color: white;
+  background-color: black;
+  font-family: 'Arvo', serif;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+.checked {
+	cursor: pointer;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+.checked:hover {
+	filter: opacity(50%);
+	transition: 0.3s;
+}
+input[type="radio"]:checked + label {
+	filter: opacity(50%);
+}
+.bestell {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+}
+.beste {
+	font-family: arial;
+	font-size: 10pt;
+	color: #bebebe;
+	float: right;
+	margin-right: 50px;
+}
+.bestebutton {
+	font-family: 'Arvo', serif;
+	font-size: 10pt;
+	color: black;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	height: 34px;
+	width: 150px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+}
+.bestebutton:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.zufi {
+	float: left;
+	font-family: 'Arvo', serif;
+	font-size: 20pt;
+	color: black;
+	margin-top: 20px;
+	margin-right: 50px;
+	height: 60px;
+	width: 297px;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+}
+.zufi:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.feedback {
+	height: 213px;
+	width: 293px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin-right: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.feedb {
+	width: 96%;
+	border-style: none;
+	height: 158px;
+	resize: none;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.feedbutton {
+	font-family: 'Arvo', serif;
+	font-size: 13pt;
+	width: 100%;
+	height: 40px;
+	color: black;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	cursor: pointer;
+}
+.feedbutton:hover {
+	background-color: #262626;
+	border-color: #262626;
+	transition: 0.3s;
+}
+.thx {
+	margin-left: 36px;
+	font-family: 'Arvo', serif;
+	font-size: 13pt;
+}
+}
